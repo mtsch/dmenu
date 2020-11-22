@@ -1,5 +1,7 @@
 *.rej
 *.orig
 *.o
-st
 patches
+dmenu
+stest
+
