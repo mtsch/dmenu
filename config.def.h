@@ -9,14 +9,14 @@ static int topbar = 1;
 static int fuzzy = 1;
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-    "UbuntuMono Nerd Font:pixelsize=17:antialias=true:autohint=true"
+    "Hack Nerd Font Mono:pixelsize=16:antialias=true:autohint=true"
 };
 /* -p  option; prompt to the left of input field */
 static const char *prompt = NULL;
 static const char *colors[SchemeLast][2] = {
 	/*             fg           bg       */
-	[SchemeNorm] = {"#839496", "#002b36"},
-	[SchemeSel] =  {"#002b36", "#cb4b16"},
+	[SchemeNorm] = {"#586e75", "#002b36"},
+	[SchemeSel] =  {"#93a1a1", "#073642"},
 	[SchemeOut] =  {"#000000", "#00ffff"},
 };
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
